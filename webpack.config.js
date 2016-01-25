@@ -8,21 +8,26 @@ var htmlMinifiedOptions = {
 var htmlWebpackOptions = {
   title: 'Iomante',
   minify: htmlMinifiedOptions,
-  hash: true
+  hash: true,
+  template: 'src/index.html',
+  inject: 'body'
 };
 
 module.exports = {
   entry: './src/main.js',
   output: {
     path: 'dist',
-    filename: '/iomante.js'
+    filename: 'iomante.js'
   },
   plugins: [
     new HtmlWebpackPlugin(htmlWebpackOptions)
   ],
   module: {
     loaders: [
-      { test: /\.css$/, loader: 'style!css' }
+      {
+        test: /\.css$/,
+        loader: 'style!css'
+      }
     ]
   }
 };
