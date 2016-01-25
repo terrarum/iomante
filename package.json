@@ -1,0 +1,23 @@
+{
+  "name": "iomante",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terrarum/iomante.git"
+  },
+  "author": "James Fidler <terrarum@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terrarum/iomante/issues"
+  },
+  "homepage": "https://github.com/terrarum/iomante#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.7.2",
+    "webpack": "^1.12.12"
+  }
+}
