@@ -1,10 +1,7 @@
 var Firebase = require('firebase');
 var Vue = require('vue');
 
-
 var iomante = new Firebase('https://iomante.firebaseio.com/');
-
-
 
 var startTemplate = require('html!./templates/start.html');
 
